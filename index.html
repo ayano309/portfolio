@@ -4,10 +4,315 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ako's portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/aae9290d6a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+  <!-- ナビバー -->
+  <header>
+    <nav class="navbar">
+      <div class="text-center logo">
+        <h1 class="logo-title">Ako portfolio</h1>
+        <img src="" alt="">
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <!-- works -->
+        <h2 class="text-center section">Works</h2>
+        <p class="text-center">画像が詳細と繋がってます</p>
+        <div class="col-md-12">
+          <div class="top-image">
+            <a href="#ako-shop" class="section-link"><img src="image/ako-top.png" alt="トップページ" class="top-img"></a>
+            <a href="#ichigo" class="section-link"><img src="image/ichigo-top.png" alt="トップページ" class="top-img"></a>
+            <a href="#output" class="section-link"><img src="image/output-top.png" alt="トップページ" class="top-img"></a>
+          </div>     
+        </div>
+        
+        <!---------------------------------- ako-shop---------------------------------------->
+        <section id="ako-shop">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
   
+              <!-- タイトル -->
+              <h3 class="app-title">Ako-shop（ECサイト）</h3>
+            
+  
+              <!-- カルーセル -->
+              <div id="akoshop_carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <ol class="carousel-indicators">
+                  <li class="active" data-target="#akoshop_carousel" data-slide-to="0"></li>
+                  <li data-target="#akoshop_carousel" data-slide-to="1"></li>
+                  <li data-target="#akoshop_carousel" data-slide-to="2"></li>
+                  <li data-target="#akoshop_carousel" data-slide-to="3"></li>
+                  <li data-target="#akoshop_carousel" data-slide-to="4"></li>
+                  <li data-target="#akoshop_carousel" data-slide-to="5"></li>
+                </ol>
+  
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="image/ako-top.png" alt="トップページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/ako-item.png" alt="アイテム詳細" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/ako-cart.png" alt="買い物カゴ" class="img">
+                  </div>
+                  <div class="item">
+                      <img src="image/ako-mypage.png" alt="マイページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/ako-review.png" alt="レビュー" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/ako-admin.png" alt="管理者ページ" class="img">
+                  </div>
+                </div>
+  
+                <a class="left carousel-control" href="#akoshop_carousel" data-slide="prev" role="button">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">前へ</span>
+                </a>
+                <a class="right carousel-control" href="#akoshop_carousel" data-slide="next" role="button">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">次へ</span>
+                </a>
+              </div>
+              
+              <!-- 詳細 -->
+              <div class="row section-box">
+                <dl class="col-sm-3">
+                  <dt>アプリ名</dt>
+                  <dd>Ako-shop</dd>
+                  <dt>開発開始</dt>
+                  <dd>2022.04~</dd>
+                </dl>
+                <dl class="col-sm-9">
+                  <dt>説明</dt>
+                  <dd>ECサイトにある機能を実装して自分でアレンジして作成したアプリです。</dd>
+                  <dt>開発理由</dt>
+                  <dd>ECサイトの機能を自分で１からの開発に挑戦してみたいと思い作成しました</dd>
+                  <dt>機能</dt>
+                  <dd>ゲストログイン / 退会機能/ 購入する / 商品に対するレビュー / お気に入り / メール送信</dd>
+                  <dt>使用した技術</dt>
+                  <dd>Ruby on Rails / Ruby / haml / css / JavaScript/ bootstrap </dd>
+                  <dt>URL</dt>
+                  <dd>
+                    <a href="#" target="_blank"></a>
+                    <br>
+                  </dd>
+                  <dt>GitHub<i class="fa-brands fa-github fa-2x"></i></dt>
+                  <dd><a href="https://github.com/ayano309/ako-shop" target="_blank">https://github.com/ayano309/ako-shop </a></dd>
+                </dl>
+              </div> 
+  
+            </div>  
+          </div> 
+        </section>
+        
+
+        <!----------------------------------ICHIGO大福---------------------------------------->
+        <section id="ichigo">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+  
+              <!-- タイトル -->
+              <h3>ICHIGO大福(予約サイト)</h3>
+              
+  
+              <!-- カルーセル -->
+              <div id="ichigo_carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <ol class="carousel-indicators">
+                  <li class="active" data-target="#ichigo_carousel" data-slide-to="0"></li>
+                  <li data-target="#ichigo_carousel" data-slide-to="1"></li>
+                  <li data-target="#ichigo_carousel" data-slide-to="2"></li>
+                  <li data-target="#ichigo_carousel" data-slide-to="3"></li>
+                  <li data-target="#ichigo_carousel" data-slide-to="4"></li>
+                  <li data-target="#ichigo_carousel" data-slide-to="5"></li>
+                </ol>
+  
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="image/ichigo-top.png" alt="トップページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/ichigo-about.png" alt="aboutページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/ichigo-reservation.png" alt="予約ページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/ichigo-reservation2.png" alt="予約ページ2" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/ichigo-contact.png" alt="コンタクトページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/ichigo-calender.png" alt="管理者ページ" class="img">
+                  </div>
+                </div>
+  
+                <a class="left carousel-control" href="#ichigo_carousel" data-slide="prev" role="button">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">前へ</span>
+                </a>
+                <a class="right carousel-control" href="#ichigo_carousel" data-slide="next" role="button">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">次へ</span>
+                </a>
+              </div>
+              
+              <!-- 詳細 -->
+              <div class="row section-box">
+                <dl class="col-sm-3">
+                  <dt>アプリ名</dt>
+                  <dd>ICHIGO大福</dd>
+                  <dt>開発開始</dt>
+                  <dd>2022.05~</dd>
+                </dl>
+                <dl class="col-sm-9">
+                  <dt>説明</dt>
+                  <dd>苺大福を予約するアプリです。</dd>
+                  <dt>開発理由</dt>
+                  <dd>苺大福を電話で予約するお店が多いため、作成しました。</dd>
+                  <dt>機能</dt>
+                  <dd>ゲストログイン / 予約機能 / お問い合わせ機能 / 管理者機能 </dd>
+                  <dt>使用した技術</dt>
+                  <dd>Ruby on Rails / Ruby / html / css / bootstrap </dd>
+                  <dt>URL</dt>
+                  <dd><a href="#" target="_blank"></a></dd>
+                  <dt>GitHub<i class="fa-brands fa-github fa-2x"></i></dt>
+                  <dd><a href=https://github.com/ayano309/ichigo-daihuku target="_blank">https://github.com/ayano309/ichigo-daihuku</a></dd>
+                </dl>
+              </div>   
+            </div>
+          </div>
+        </section>
+        
+        <!---------------------------------- output-app---------------------------------------->
+        <section id="output">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+  
+              <!-- タイトル -->
+              <h3>Knowput(投稿サイト)</h3>
+              
+  
+  
+              <!-- カルーセル -->
+              <div id="output_carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <ol class="carousel-indicators">
+                  <li class="active" data-target="#output_carousel" data-slide-to="0"></li>
+                  <li data-target="#output_carousel" data-slide-to="1"></li>
+                  <li data-target="#output_carousel" data-slide-to="2"></li>
+                  <li data-target="#output_carousel" data-slide-to="3"></li>
+                  <li data-target="#output_carousel" data-slide-to="4"></li>
+                  <li data-target="#output_carousel" data-slide-to="5"></li>
+                  <li data-target="#output_carousel" data-slide-to="6"></li>
+                  <li data-target="#output_carousel" data-slide-to="7"></li>
+                </ol>
+  
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="image/output-index.png" alt="記事一覧ページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/output-show.png" alt="ページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/output-profile.png" alt="profileページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/output-dashboard.png" alt="dashboardページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/output-user.png" alt="user一覧ページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/output-group.png" alt="groupページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/output-dm.png" alt="DMページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="image/output-notification.png" alt="通知ページ" class="img">
+                  </div>
+                </div>
+  
+                <a class="left carousel-control" href="#output_carousel" data-slide="prev" role="button">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">前へ</span>
+                </a>
+                <a class="right carousel-control" href="#output_carousel" data-slide="next" role="button">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">次へ</span>
+                </a>
+              </div>
+              
+              <!-- 詳細 -->
+              <div class="row section-box">
+                <dl class="col-sm-3">
+                  <dt>アプリ名</dt>
+                  <dd>Knowput</dd>
+                  <dt>開発開始</dt>
+                  <dd>2022.06~</dd>
+                </dl>
+                <dl class="col-sm-9">
+                  <dt>説明</dt>
+                  <dd>勉強した内容をアウトプットするアプリです。</dd>
+                  <dt>開発理由</dt>
+                  <dd>スクールで勉強していてみんなで情報を共有することがあまりありませんでした。<br>
+                    教えることが最大のアウトプットだと知りその手助けができるアプリを作成したくて作りました。<br>
+                  </dd>
+                  <dt>機能</dt>
+                  <dd>ゲストログイン / 投稿機能 / いいね機能 / コメント機能 / 通知機能 / フォロー機能 / タイムライン機能 / DM機能 / カレンダー / グループ機能 /タグ機能 </dd>
+                  <dt>使用した技術</dt>
+                  <dd>Ruby on Rails / Ruby / html / css / bootstrap </dd>
+                  <dt>URL</dt>
+                  <dd><a href="#" target="_blank"></a></dd>
+                  <dt>GitHub<i class="fa-brands fa-github fa-2x"></i></dt>
+                  <dd><a href=https://github.com/ayano309/output-app target="_blank">https://github.com/ayano309/output-app</a></dd>
+                </dl>
+              </div>   
+            </div>
+          </div>
+        </section>
+        
+        
+        
+        <!-- profile -->
+        <div class="text-center">
+          <h2 class="section">About me</h2>
+
+          <div class="about-me">
+            <h4 style="margin-bottom: 10px;">Kumazawa ayano</h4>
+            <div>Ruby on Railsを使用したwebアプリの開発に取り組んでいます。<br>
+              オリジナルキャラクター作りにはまってます。
+            </div>
+            <br>
+            <dl>
+              <dt>スキル</dt>
+              <dd>Ruby on Rails / Ruby / html / css / bootstrap / git </dd>
+              <dt>勉強中、したいこと</dt>
+              <dd>JavaScript（勉強中）/ vue.js / AWS </dd>
+              <dt>特技・趣味</dt>
+              <dd>水泳/ 読書 / ゲーム / 映画鑑賞 </dd>
+            </dl>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>
