@@ -118,13 +118,18 @@ body {
 
 
 .about-me{
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  color: #474747;
-  background: whitesmoke;/*背景色*/
-  border-left: double 7px #7172ac;
-  border-right: double 7px #7172ac;
+  
 }
+.about-box{
+  margin-bottom: 30px;
+  border: 1px solid #5d627b;
+  padding: 30px;
+}
+.about-title{
+  font-weight: bold;
+  font-size: 30px;
+}
+
 /* ********************************** */
 
 
